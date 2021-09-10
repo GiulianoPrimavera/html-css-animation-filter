@@ -80,6 +80,10 @@
     border-radius: 10px;
 }
 /* animazione 9 immagine */
+.ex-9-img {
+    margin: 50px 100px;
+    width: 400px;
+}
 .ex-9-img{
     transition: filter 1s ease, border-radius 1s ease, transform 1s ease;
 
@@ -91,16 +95,38 @@
 }
 
 
-.ex-9-img {
-    margin: 50px 100px;
-    width: 400px;
-}
 .ex-10-icon {
     font-size: 60px;
+    animation: loading 1s linear infinite;
 }
+/* loading animation 10*/
+@keyframes loading{
+    from{
+        transform: rotateZ(0);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
 .ex-11-icon {
     font-size: 60px;
+    animation: animation-11 1s linear infinite;
 }
+/* animazione 11 */
+@keyframes animation-11{
+    0%{
+        transform: rotateZ(0);
+    }
+    75%{
+        transform: rotateZ(270deg);
+    }
+    100%{
+        transform: rotateZ(-45deg);
+    }
+
+}
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
