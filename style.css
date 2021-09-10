@@ -60,6 +60,36 @@
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
+/* animazione 6 immagine */
+.ex-6-img:hover{
+    filter: grayscale(100%);
+}
+/* animazione 7 immagine */
+.ex-7-img{
+        transition: filter 1s ease;
+}
+.ex-7-img:hover{
+    filter: grayscale(100%);
+}
+/* animasione 8 immagine */
+.ex-8-img{
+    transition: filter 1s ease, border-radius 1s ease;
+}
+.ex-8-img:hover{
+    filter: grayscale(100%);
+    border-radius: 10px;
+}
+/* animazione 9 immagine */
+.ex-9-img{
+    transition: filter 1s ease, border-radius 1s ease, transform 1s ease;
+
+}
+.ex-9-img:hover{
+    filter: grayscale(100%);
+    border-radius: 10px;
+    transform: scale(0.7);
+}
+
 
 .ex-9-img {
     margin: 50px 100px;
