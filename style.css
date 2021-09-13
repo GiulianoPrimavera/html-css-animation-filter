@@ -122,7 +122,7 @@
         transform: rotateZ(270deg);
     }
     100%{
-        transform: rotateZ(-45deg);
+        transform: rotateZ(0deg);
     }
 
 }
